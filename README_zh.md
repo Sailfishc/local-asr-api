@@ -51,6 +51,7 @@ pip install torch torchaudio
 |------|----------|------|----------|
 | **SenseVoice** | `iic/SenseVoiceSmall` | 多语言、情感与事件检测（FunASR / ModelScope） | `~/.cache/modelscope/hub/` |
 | **MLX** | `mlx-community/Qwen3-ASR-1.7B-8bit` | 在 Mac 上推理更快（Hugging Face） | `~/.cache/huggingface/hub/` |
+| **MLX** | `mlx-community/Qwen3-ASR-0.6B-8bit` | 轻量版，推理速度更快，适合低资源或实时场景 | `~/.cache/huggingface/hub/` |
 
 首次运行时会自动下载模型到上述缓存目录，之后将直接使用本地缓存。
 
